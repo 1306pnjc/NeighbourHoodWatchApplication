@@ -1,4 +1,3 @@
-composer create-project --prefer-dist laravel/laravel your-project-name
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
