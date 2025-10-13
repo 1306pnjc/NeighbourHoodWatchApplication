@@ -1,0 +1,92 @@
+/* Reset default margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1895c; /* orange background */
+  color: #000;
+}
+
+/* Header layout */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1895c;
+  padding: 10px 30px;
+}
+
+/* Logo */
+.logo img {
+  width: 60px;
+  height: auto;
+}
+
+/* Navbar */
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #ffeb3b; /* yellow buttons */
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.navbar a.active,
+.navbar a:hover {
+  background-color: #fdd835;
+}
+
+/* Auth links */
+.auth-links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.auth-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.auth-links .signin:hover,
+.auth-links .signup:hover {
+  text-decoration: underline;
+}
+
+/* Welcome section */
+.welcome-section {
+  text-align: center;
+  margin-top: 60px;
+  padding: 0 20px;
+}
+
+.welcome-section h1 {
+  font-size: 2.5rem;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.welcome-section .subtitle {
+  font-size: 1.2rem;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.welcome-section .description {
+  font-size: 0.95rem;
+  color: #4a4a4a;
+  max-width: 600px;
+  margin: 0 auto;
+}
